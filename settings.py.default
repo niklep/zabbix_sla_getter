@@ -1,0 +1,12 @@
+# Подключение к Zabbix API
+URL = ""                # URL Zabbix API
+USER = ""               # Имя пользователя для подключения к Zabbix API
+PASSWORD = ""           # Пароль пользователя для подключения к Zabbix API
+
+# Имена файлов
+LOG_FILE_NAME = ""      # Путь и имя к LOG файлу
+OUTPUT_FILE_NAME = ""   # Путь и имя к TXT файлу - результату
+
+PERIOD = ""             # Варианты: DAY, WEEK, MONTH. Пока что реализован только MONTH
+PARENT_SLA_NAME = ""    # Имя SLA услуги, детей которой нужно вывести в результат
+DEBUG = False           # Задайте True, если хотите получать debug сообщения к поток вывода ОС (system output)
